@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "halaman_jasa_pelabuhans",
+  "info": {
+    "singularName": "halaman-jasa-pelabuhan",
+    "pluralName": "halaman-jasa-pelabuhans",
+    "displayName": "Halaman Jasa Pelabuhan"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "judul_halaman": {
+      "type": "string"
+    },
+    "deskripsi_layanan": {
+      "type": "blocks"
+    },
+    "gambar_header": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

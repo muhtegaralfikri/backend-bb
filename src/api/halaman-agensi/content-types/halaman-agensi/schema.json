@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "halaman_agensis",
+  "info": {
+    "singularName": "halaman-agensi",
+    "pluralName": "halaman-agensis",
+    "displayName": "Halaman Agensi"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "judul_halaman": {
+      "type": "string"
+    },
+    "deskripsi_layanan": {
+      "type": "blocks"
+    },
+    "gambar_header": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}
